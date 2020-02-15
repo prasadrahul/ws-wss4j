@@ -78,9 +78,9 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:https://gitbox.apache.org/repos/asf/ws-wss4j.git</connection>
-        <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/ws-wss4j.git</developerConnection>
-        <url>https://gitbox.apache.org/repos/asf?p=ws-wss4j.git;a=summary</url>
+        <connection>scm:git:https://github.com/prasadrahul/ws-wss4j.git</connection>
+        <developerConnection>scm:git:https://github.com/prasadrahul/ws-wss4j.git</developerConnection>
+        <url>https://github.com/prasadrahul/ws-wss4j</url>
     </scm>
     <organization>
         <name>The Apache Software Foundation</name>
@@ -567,18 +567,12 @@
         </plugins>
     </reporting>
 
-    <distributionManagement>
-        <repository>
-            <id>apache.releases.https</id>
-            <name>Apache Release Distribution Repository</name>
-            <url>https://repository.apache.org/service/local/staging/deploy/maven2</url>
-        </repository>
-        <snapshotRepository>
-            <id>apache.snapshots.https</id>
-            <name>Apache Development Snapshot Repository</name>
-            <url>https://repository.apache.org/content/repositories/snapshots</url>
-            <!--uniqueVersion>false</uniqueVersion-->
-        </snapshotRepository>
-    </distributionManagement>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a342f819c002-releases</name>
+        <url>http://167.172.100.183:8081/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
 
 </project>
